@@ -1,0 +1,15 @@
+{
+  "name": "modbus-register-address-converter",
+  "version": "1.1.3",
+  "private": true,
+  "description": "Convert between Modicon notation (40001, 400001, 4x0001) and the 0-based Modbus PDU address; register table, read/write function codes and hex address.",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://endustriyel.eretek.com/en/tools/modbus-register-address-converter",
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "test": "node test/run.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
